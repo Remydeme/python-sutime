@@ -1,5 +1,7 @@
 # sutime
+
 *Python wrapper for Stanford CoreNLP's [SUTime](http://nlp.stanford.edu/software/sutime.shtml) Java library.*
+with french support
 
 ## Build Status
 
