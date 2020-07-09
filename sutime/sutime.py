@@ -61,7 +61,7 @@ class SUTime(object):
     }
 
     # https://github.com/stanfordnlp/CoreNLP/tree/master/src/edu/stanford/nlp/time/rules
-    _supported_languages = {"british", "english", "spanish"}
+    _supported_languages = {"british", "english", "spanish", "french"}
 
     def __init__(
         self,
@@ -105,7 +105,7 @@ class SUTime(object):
 
         if not (
             glob.glob(language_model_file)
-            or normalized_language in {"english", "british"}
+            or normalized_language in {"english", "british", "french"}
         ):
             raise RuntimeError(
                 "Missing language model for {}! ".format(

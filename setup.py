@@ -15,13 +15,13 @@ with open(path.join(THIS_DIRECTORY, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='sutime',
-    version='1.0.0rc5',
+    version='1.0.0',
     description='A Python wrapper for Stanford CoreNLP\'s SUTime',
     long_description=LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
-    url='https://github.com/FraBle/python-sutime',
-    author='Frank Blechschmidt',
-    author_email='contact@frank-blechschmidt.com',
+    url='https://github.com/Remydeme/python-sutime',
+    author='DEME rémy',
+    author_email='demeremy@gmail.com',
     license='GPLv3+',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
